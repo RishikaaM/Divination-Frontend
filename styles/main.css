@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(10px); 
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 1); 
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    z-index: 1; 
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #7b7d7b;
+    cursor: default;
+}
+
+#select-area-of-life {
+    width: 100%;
+    margin-bottom: 4%;
+    height: 40px;
+    padding: 2%;
+}
+
+#sp-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#get-divination-result-button {
+    margin-top: 4%;
+}
