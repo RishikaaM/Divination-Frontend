@@ -16,7 +16,7 @@ const getAreaOfLifeFromStorage = () => {
 
 const getDivinationResult = async (postData = {}) => {
     try {
-        const response = await fetch('http://localhost:3000/getDivinationResult', {
+        const response = await fetch('https://digital-divination-backend.onrender.com/getDivinationResult', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
