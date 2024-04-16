@@ -15,6 +15,6 @@ const onGetStartedClick = () => {
     setNameInStorage(name);
 
     // Move to next page
-    window.location.href = "/select-area-of-life.html";
+    window.location.href = "select-area-of-life.html";
 
 }

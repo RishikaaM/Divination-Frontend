@@ -11,6 +11,6 @@ const onNextClick = () => {
     setAreaOfLifeInStorage(areaOfLife);
 
     // Move to next page
-    window.location.href = "/select-element-screen.html";
+    window.location.href = "select-element-screen.html";
 
 }

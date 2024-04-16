@@ -13,7 +13,7 @@ const onNextClick = () => {
     setSelectedElementInStorage(selectedElement);
 
     // Move to next page
-    window.location.href = "/breathing-exercise.html";
+    window.location.href = "breathing-exercise.html";
 
 }
 

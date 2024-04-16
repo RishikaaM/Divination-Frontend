@@ -64,7 +64,7 @@ const activateGetDivinationResultButton = (delay = 20000) => {
 
 const onGetDivinationResultClick = () => {
 
-    window.location.href = "/divination-result.html";
+    window.location.href = "divination-result.html";
 
 }
 
