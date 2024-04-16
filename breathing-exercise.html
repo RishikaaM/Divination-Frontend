@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initial Prompt Screen</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/slider-pro-js/build/slider-pro.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <img id="background-image" class="background-image" src="images/backgrounds/nature.jpg" alt="Background Image">
+        <div class="content">
+            <h1>Lets do some breathing</h1>
+            <br>
+            <div class="slider-pro" id="my-slider">
+                <div class="sp-slides">
+                    <!-- Slide 1 -->
+                    <div id="sp-slide" class="sp-slide">
+                        <p id="slide-text-1"></p>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div id="sp-slide" class="sp-slide">
+                        <p id="slide-text-2"></p>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div id="sp-slide" class="sp-slide">
+                        <p id="slide-text-3"></p>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div id="sp-slide" class="sp-slide">
+                        <p id="slide-text-4"></p>
+                    </div>
+                </div>
+            </div>
+
+            <button id="get-divination-result-button" type="button" onclick="onGetDivinationResultClick()" disabled>Get Divination Result</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://unpkg.com/slider-pro-js/build/slider-pro.js"></script>
+    <script src="scripts/breathing-exercise.js"></script>
+    <script type="text/javascript">
+        
+    </script>
+</body>
+</html>
